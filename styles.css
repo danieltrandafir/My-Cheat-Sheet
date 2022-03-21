@@ -1,0 +1,133 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(resources/images/pexels-photo-10212470.jpeg);
+    background-size: 50%;
+    margin: 2em 8%;
+}
+
+main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700; 
+    background: repeating-linear-gradient(to top right, cadetblue , azure, darkkhaki, cadetblue) ;
+    padding: 3% 0 3% 3%;
+    margin: 0;
+    opacity: 0.9;
+}
+
+footer {
+    font-family: 'Syne Mono', monospace;
+}
+
+caption {
+    text-align: left;
+}
+
+#title {
+    background: linear-gradient( 75deg, lightblue 30%, lightgreen, cornflowerblue);
+    color:midnightblue;
+    opacity: 0.7;
+    width: 100%;
+    display: flex;
+}
+
+#title h1{
+    margin: auto;
+    position: relative;
+    color:black; 
+}
+
+#title p {
+    font-family: 'Syne Mono', monospace;
+    color: black;
+    font-weight: bolder;
+   position: relative;
+   right:1em;
+   padding: 1.5em 0;
+}
+
+#title img {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+#intro {
+    background-color:darkcyan;
+    width: 14%;
+    height: 80.47px;
+    display: inline;
+    position: absolute;
+    opacity: 0.7;
+    margin: 0 0;
+}
+
+td:nth-child(odd) {
+    color:royalblue;
+    padding-right: 10px;
+}
+
+.box1, .box2, .box3, .box4, .box5, .box6 {
+    margin-top: 2em;
+    display: inline-flex;
+}
+
+.box2 {
+    width: 350px;
+    height: 350px;
+    position: relative;
+    right: 4%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+.box2 h2 {
+   position: relative;
+   bottom: 45px;
+   left: 11%;
+}
+
+.box3 td:nth-child(odd) {
+    padding-right: 30px;
+}
+
+.margin {
+    background-color:darkcyan;
+    width: 75%;
+    height: 75%;
+    position: absolute;
+    top:12.5%;
+    left: 12.5%;
+    padding-top: 1%;
+}
+
+.border {
+    background-color:cornflowerblue;
+    width: 77%;
+    height: 77%;
+    position: absolute;
+    top: 11.5%;
+    left: 11.5%;
+}
+
+.padding {
+    background-color:darkturquoise;
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding-top: 5%;
+}
+
+.content {
+    background-color:aquamarine;
+    width: 50%;
+    height: 50%;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    padding-top: 17%;
+}
