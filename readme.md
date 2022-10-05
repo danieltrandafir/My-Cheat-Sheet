@@ -6,7 +6,7 @@
 ## General Information
 
 - This webpage was created as part of my learning on Codecademy.
-- I have designed it to improve my knowledge and creativity using HTML & CSS.
+- I have created this page to improve my knowledge using HTML & CSS.
 
 ## Technologies Used
 
