@@ -3,9 +3,9 @@
 }
 
 body {
-    background-image: url(resources/images/pexels-photo-10212470.jpeg);
+    background-color:rgb(245, 240, 234) ;
     background-size: 50%;
-    margin: 2em 8%;
+    margin: 0 8%;
 }
 
 main {
@@ -36,7 +36,8 @@ caption {
 #title h1{
     margin: auto;
     position: relative;
-    color:black; 
+    color:black;
+    font-size: 36px; 
 }
 
 #title p {
@@ -65,7 +66,7 @@ caption {
 }
 
 td:nth-child(odd) {
-    color:royalblue;
+    color: navy;
     padding-right: 10px;
 }
 
